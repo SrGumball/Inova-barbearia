@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+# Sistema para Barbearia
 
-## Project info
+Sistema web desenvolvido para gerenciamento de barbearia / salão de cabeleireiro, com foco em organização, agendamento e controle de clientes.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🚀 Sobre o Projeto
 
-## How can I edit this code?
+O Gold Cut Pro é uma aplicação web criada para facilitar a gestão de serviços de barbearia, permitindo:
 
-There are several ways of editing your application.
+📅 Agendamento de horários
 
-**Use Lovable**
+👤 Cadastro de clientes
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+💰 Controle de pagamentos
 
-Changes made via Lovable will be committed automatically to this repo.
+📊 Organização dos serviços oferecidos
 
-**Use your preferred IDE**
+📱 Interface moderna e responsiva
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+O objetivo é oferecer uma solução simples, prática e eficiente para pequenos negócios.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🛠️ Tecnologias Utilizadas
 
-Follow these steps:
+React
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+TypeScript
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Node.js
 
-# Step 3: Install the necessary dependencies.
-npm i
+SQLite / Supabase (dependendo da versão)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+HTML5
+
+CSS3
+
+JavaScript
+
+Git & GitHub
+
+📂 Estrutura do Projeto
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── hooks/
+ └── lib/
+
+Organizado de forma modular para facilitar manutenção e escalabilidade.
+
+⚙️ Funcionalidades
+
+✅ Interface moderna
+
+✅ Seções de serviços
+
+✅ Galeria de cortes
+
+✅ Botão de contato via WhatsApp
+
+🔄 Sistema de agendamento (em desenvolvimento)
+
+🔄 Controle de horários disponíveis
+
+💻 Como Rodar o Projeto
+
+Clone o repositório:
+
+git clone https://github.com/SrGumball/Inova-barbearia.git
+
+Entre na pasta:
+
+cd Inova-barbearia
+
+Instale as dependências:
+
+npm install
+
+Inicie o servidor:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+📌 Objetivo
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Este projeto faz parte do meu desenvolvimento como programador, aplicando conceitos reais em um sistema voltado para negócios locais.
 
-**Use GitHub Codespaces**
+👨💻 Autor
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Alef Dias
+Desenvolvedor em formação | Criando soluções reais com tecnologia
